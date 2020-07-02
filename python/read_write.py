@@ -8,5 +8,7 @@ with open('file.json', 'w') as f:
 
 # Load Json into dict
 with open('file.json') as f:
-        py_dict = json.load(f)
+    py_dict = json.load(f)
         
+with open("test.txt", encoding = 'utf-8') as f:
+   # perform file operations
