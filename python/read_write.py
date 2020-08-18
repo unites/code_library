@@ -12,3 +12,5 @@ with open('file.json') as f:
         
 with open("test.txt", encoding = 'utf-8') as f:
    # perform file operations
+   for line in list_var:
+     file.write(line)
